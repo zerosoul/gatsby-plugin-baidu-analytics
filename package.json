@@ -12,8 +12,13 @@
     "type": "git",
     "url": "git+https://github.com/zerosoul/gatsby-plugin-baidu-analytics.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "baidu",
+    "analytics"
+  ],
+  "author": "tristan <yanggc888@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zerosoul/gatsby-plugin-baidu-analytics/issues"
@@ -21,7 +26,13 @@
   "homepage": "https://github.com/zerosoul/gatsby-plugin-baidu-analytics#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.6",
     "babel-preset-env": "^1.7.0",
-    "eslint": "^5.1.0"
-  }
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "prettier": "^1.13.7"
+  },
+  "dependencies": {}
 }

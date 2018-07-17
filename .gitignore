@@ -61,5 +61,5 @@ typings/
 .next
 
 .vscode/
-gatsby-ssr.js
-gatsby-browser.js
+/gatsby-ssr.js
+/gatsby-browser.js
