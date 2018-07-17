@@ -1,3 +1,4 @@
+import React from "reat";
 exports.onRenderBody = (
   { setHeadComponents, setPostBodyComponents },
   { siteid, head }
