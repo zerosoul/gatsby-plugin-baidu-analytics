@@ -22,6 +22,7 @@ exports.onRenderBody = (
       />
     );
     const setComponents = head ? setHeadComponents : setPostBodyComponents;
-    setComponents([BAIDU_ANALYTICS_SCRIPT]);
+    return setComponents([BAIDU_ANALYTICS_SCRIPT]);
   }
+  return null;
 };
