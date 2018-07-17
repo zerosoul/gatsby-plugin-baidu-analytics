@@ -1,4 +1,4 @@
-import React from "reat";
+import React from "react";
 exports.onRenderBody = (
   { setHeadComponents, setPostBodyComponents },
   { siteid, head }
@@ -22,6 +22,7 @@ exports.onRenderBody = (
     );
     const setComponents = head ? setHeadComponents : setPostBodyComponents;
     setComponents([BAIDU_ANALYTICS_SCRIPT]);
+    console.log("baidu tongji added!");
   }
   // return null;
 };
