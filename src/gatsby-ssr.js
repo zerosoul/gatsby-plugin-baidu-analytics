@@ -3,7 +3,7 @@ exports.onRenderBody = (
   { setHeadComponents, setPostBodyComponents },
   { pluginOptions: { siteid, head } }
 ) => {
-  if (ProcessingInstruction.env.NODE_ENV == `production`) {
+  if (process.env.NODE_ENV == `production`) {
     const BAIDU_ANALYTICS_SCRIPT = () => (
       <script
         key={`gatsby-plugin-baidu-analytics-script`}
@@ -23,6 +23,7 @@ exports.onRenderBody = (
       />
     );
     const setComponents = head ? setHeadComponents : setPostBodyComponents;
-    setComponents(BAIDU_ANALYTICS_SCRIPT);
+    return setComponents(BAIDU_ANALYTICS_SCRIPT);
   }
+  return null;
 };
