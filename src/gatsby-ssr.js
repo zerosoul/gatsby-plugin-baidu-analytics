@@ -1,6 +1,6 @@
 exports.onRenderBody = (
   { setHeadComponents, setPostBodyComponents },
-  { pluginOptions: { siteid, head } }
+  { siteid, head }
 ) => {
   if (process.env.NODE_ENV == `production`) {
     const BAIDU_ANALYTICS_SCRIPT = () => (
