@@ -1,4 +1,4 @@
-exports.onRouteUpdate = function({ location = {} }) {
+exports.onRouteUpdate = ({ location = {} }) => {
   // Don't track while developing.
   if (process.env.NODE_ENV === `production` && typeof _hmt === `function`) {
     window._hmt.push([
