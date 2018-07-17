@@ -1,2 +1,2 @@
 # gatsby-plugin-baidu-analytics
-biadu analytics for gatsby site
+Baidu analytics for gatsby site

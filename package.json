@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-plugin-baidu-analytics",
+  "version": "1.0.0",
+  "description": "baidu analytics for gatsby site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerosoul/gatsby-plugin-baidu-analytics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerosoul/gatsby-plugin-baidu-analytics/issues"
+  },
+  "homepage": "https://github.com/zerosoul/gatsby-plugin-baidu-analytics#readme"
+}
