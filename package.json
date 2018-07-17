@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-baidu-analytics",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "baidu analytics for gatsby site",
   "main": "index.js",
   "scripts": {
