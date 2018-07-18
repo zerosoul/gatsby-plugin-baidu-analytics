@@ -1,9 +1,9 @@
 import React from "react";
 exports.onRenderBody = (
   { setHeadComponents, setPostBodyComponents },
-  { siteid, head }
+  { siteId = "", head = false }
 ) => {
-  if (process.env.NODE_ENV === `production`) {
+  if (process.env.NODE_ENV === `production` && siteId) {
     const BAIDU_ANALYTICS_SCRIPT = (
       <script
         key={`gatsby-plugin-baidu-analytics-script`}
@@ -12,7 +12,7 @@ exports.onRenderBody = (
                   var _hmt = _hmt || [];
                   (function() {
                       var hm = document.createElement("script");
-                      hm.src = "//hm.baidu.com/hm.js?${siteid}";
+                      hm.src = "//hm.baidu.com/hm.js?${siteId}";
                       var s = document.getElementsByTagName("script")[0]; 
                       s.parentNode.insertBefore(hm, s);
                   })();
