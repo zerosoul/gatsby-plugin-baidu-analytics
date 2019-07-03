@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-baidu-analytics",
-  "version": "1.1.14",
+  "version": "2.0.0",
   "description": "baidu analytics for gatsby site",
   "main": "index.js",
   "scripts": {
@@ -26,14 +26,15 @@
   },
   "homepage": "https://github.com/zerosoul/gatsby-plugin-baidu-analytics#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.2.6",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "eslint": "^5.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-prettier": "^2.6.2",
-    "prettier": "^1.13.7"
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
   },
   "dependencies": {}
 }
