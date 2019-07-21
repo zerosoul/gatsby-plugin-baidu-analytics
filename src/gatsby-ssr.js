@@ -22,7 +22,6 @@ exports.onRenderBody = (
     );
     const setComponents = head ? setHeadComponents : setPostBodyComponents;
     setComponents([BAIDU_ANALYTICS_SCRIPT]);
-    console.log("baidu tongji added!");
   }
   // return null;
 };
